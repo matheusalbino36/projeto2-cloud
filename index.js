@@ -14,7 +14,7 @@ app.get("/produtos", (req, res) => {
   res.send("<h1>Lista de Produtos</h1><ul><li>Produto A</li><li>Produto B</li></ul>");
 });
 
-app.get("/equipe", (req, res) => {
+app.get("/equipe2", (req, res) => {
   res.send("<h1>Nossa Equipe</h1><p>Matheus</p>");
 });
 
